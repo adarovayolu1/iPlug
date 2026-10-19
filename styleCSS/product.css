@@ -1,0 +1,262 @@
+body{
+margin:0;
+font-family:"Roboto Condensed",sans-serif;
+background:#fff;
+color:#111
+}
+
+header{
+background:#fff;
+border-bottom:1px solid #ddd
+}
+
+.header-container{
+height:65px;
+display:flex;
+align-items:center;
+padding:0 40px
+}
+
+.header-container img{width:95px}
+
+nav{
+margin-left:auto;
+display:flex;
+gap:25px
+}
+
+nav a{
+color:#111;
+text-decoration:none;
+transition:.2s
+}
+
+.logo{
+  font-size:34px;
+  font-weight:800;
+  letter-spacing:-1.5px;
+}
+
+nav,.icons{
+  display:flex;
+  align-items:center;
+}
+
+nav{gap:32px}
+nav a{font-size:16px;color:#000000}
+.icons{gap:20px;font-size:21px}
+
+.products{
+  width:92%;
+  max-width:1400px;
+  margin:auto;
+  padding:80px 0;
+}
+
+.heading{
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  margin-bottom:35px;
+}
+
+.eyebrow{
+  color:#777;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:1.5px;
+  margin-bottom:8px;
+}
+
+h1{
+  font-size:38px;
+  letter-spacing:-1.5px;
+}
+
+.view-all{
+  font-size:13px;
+  text-decoration:underline;
+}
+
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+.card{min-width:0}
+
+.image{
+  height:370px;
+  border-radius:12px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.image img{
+  width:82%;
+  height:82%;
+  object-fit:contain;
+  transition:transform .3s ease;
+}
+
+.card:hover .image img{transform:scale(1.06)}
+
+.badge{
+  position:absolute;
+  top:16px;
+  right:16px;
+  background:#10171d;
+  color:white;
+  padding:7px 12px;
+  border-radius:20px;
+  font-size:11px;
+  z-index:2;
+}
+
+.info{padding:17px 4px}
+.info>p{color:#777;font-size:12px;margin-bottom:5px}
+.info h2{font-size:18px;margin-bottom:16px}
+
+.bottom{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.bottom strong{font-size:14px}
+.bottom a{font-size:12px;text-decoration:underline}
+
+@media(max-width:900px){
+  nav{display:none}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:600px){
+  .products{padding:50px 0}
+  .heading{
+    align-items:flex-start;
+    gap:20px;
+    flex-direction:column;
+ }
+
+  h1{font-size:30px}
+  .product-grid{grid-template-columns:1fr}
+  .image{height:330px}
+}
+
+.powerbank-card .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:nth-child(4) .image img {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+.card:nth-child(4):hover .image img {
+    transform: scale(1.6);
+}
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:50px 20px
+}
+
+footer a{color:white}
+
+.footer-links,.socials{
+display:flex;
+justify-content:center;
+gap:25px;
+margin:25px
+}
+
+.socials{font-size:22px}
+
+.view-all,
+.view-all:visited {
+    color: #111 !important;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    color: #111 !important;
+    text-decoration: underline;
+}
+
+.bottom a,
+.bottom a:visited {
+    color: #111 !important;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    color: #111 !important;
+    text-decoration: underline;
+}
+.view-product{
+display:inline-block;
+transition:.15s
+}
+
+.product-row a
+.view-all {
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+    border: 1px solid #111;
+    padding: 10px 20px;
+}
+.product-button {
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+    border: 1px solid #111;
+    padding: 12px 25px;
+}
+
+.body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 70px 20px 80px;
+    margin-top: auto;
+}
+
+.newsletter h2 {
+    font-size: 42px;
+    margin: 0 0 20px;
+    letter-spacing: 2px;
+}
+
+.newsletter p {
+    color: #666;
+    margin-bottom: 30px;
+}
+.header-icons a {
+    color: #111;
+    text-decoration: none;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.main-nav {
+    gap: 60px;
+}

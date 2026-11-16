@@ -246,13 +246,3 @@ button:hover,
 .main-nav {
     gap: 60px;
 }
-
-.blink {
-    animation: blink 1s infinite;
-}
-
-@keyframes blink {
-    50% {
-        opacity: 0;
-    }
-}

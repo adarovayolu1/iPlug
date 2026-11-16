@@ -248,17 +248,15 @@ button:hover,
 }
 
 .blink {
-  color: red;
-  font-weight: bold;
-  animation: blink 1s infinite;
+  color: #ff0000 !important;
+  animation: blink-effect 0.8s infinite !important;
 }
 
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
+@keyframes blink-effect {
+  0% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
 }
-
 .blink {
   color: red !important;
   font-weight: bold;

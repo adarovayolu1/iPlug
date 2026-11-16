@@ -149,11 +149,7 @@ h2 {
 .signup,
 .newsletter {
     text-align: center;
-    padding: 20px 0;
-    margin: 15px auto;
     background-color: #f1f1f1;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .newsletter {

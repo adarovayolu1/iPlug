@@ -147,8 +147,8 @@ h2 {
 }
 
 .signup,
-text-align: center;
 .newsletter {
+    text-align: center;
     padding-left: 25px;
     background: #f1f1f1;
 }

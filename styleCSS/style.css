@@ -146,12 +146,13 @@ h2 {
     text-decoration: none;
 }
 
-.signup,
-{
+.signup {
     text-align: center;
-    padding-left: 25px;
-    margin: 15px 0;
-    background: #f1f1f1;
+    padding: 20px 0;
+    margin: 15px auto;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .newsletter {

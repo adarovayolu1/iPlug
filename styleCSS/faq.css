@@ -8,6 +8,10 @@ background-size: cover;
 background-position: center;
 background-attachment: fixed;
 }
+li {
+    text-align: center;
+    font-size: 20px;
+}
 
 .faq-container {
 width: 970px;

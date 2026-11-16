@@ -146,7 +146,8 @@ h2 {
     text-decoration: none;
 }
 
-.signup {
+.signup,
+.newsletter {
     text-align: center;
     padding: 20px 0;
     margin: 15px auto;

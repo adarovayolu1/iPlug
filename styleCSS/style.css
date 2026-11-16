@@ -258,3 +258,9 @@ button:hover,
     opacity: 0;
   }
 }
+
+.blink {
+  color: red !important;
+  font-weight: bold;
+  animation: blink 1s step-start infinite;
+}

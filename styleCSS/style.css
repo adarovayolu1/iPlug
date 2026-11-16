@@ -246,3 +246,15 @@ button:hover,
 .main-nav {
     gap: 60px;
 }
+
+.blink {
+  color: red;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
